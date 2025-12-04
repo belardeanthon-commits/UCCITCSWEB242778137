@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Lora:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navbar Section -->
+    <nav id="navbar">
+        <ul>
+            <li><a href="#welcome-section"><button class="glow-on-hover" type="button">Home</button></a></li>
+            <li><a href="#projects"><button class="glow-on-hover" type="button">Projects</button></a></li>
+            <li><a href="#contact"><button class="glow-on-hover" type="button">Contact Me</button></a></li>
+        </ul>
+    </nav>
+
+    <!-- Welcome Section -->
+    <section id="welcome-section">
+        <div class="container">
+            <h1>Anthon Rovic Belarde E.</h1>
+            <p>Web Developer | Designer | Lifelong Learner | Pogi pa</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-tile">
+                    <img src="https://via.placeholder.com/300" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p>Description of the project goes here.</p>
+                    <a href="https://github.com/username/project1" target="_blank">
+                        <button class="glow-on-hover" type="button">View Project</button>
+                    </a>
+                </div>
+                <div class="project-tile">
+                    <img src="https://via.placeholder.com/300" alt="Project 2">
+                    <h3>Project 2</h3>
+                    <p>Description of the project goes here.</p>
+                    <a href="https://github.com/username/project2" target="_blank">
+                        <button class="glow-on-hover" type="button">View Project</button>
+                    </a>
+                </div>
+                <div class="project-tile">
+                    <img src="https://via.placeholder.com/300" alt="Project 3">
+                    <h3>Project 3</h3>
+                    <p>Description of the project goes here.</p>
+                    <a href="https://github.com/username/project3" target="_blank">
+                        <button class="glow-on-hover" type="button">View Project</button>
+                    </a>
+                </div>
+                <div class="project-tile">
+                    <img src="https://via.placeholder.com/300" alt="Project 4">
+                    <h3>Project 4</h3>
+                    <p>Description of the project goes here.</p>
+                    <a href="https://github.com/username/project4" target="_blank">
+                        <button class="glow-on-hover" type="button">View Project</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Me Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you'd like to get in touch, feel free to contact me using the details below:</p>
+            <ul>
+                <li><strong>Email:</strong> <a href="belardeanthon@gmail.com">example@email.com</a></li>
+                <li><strong>Phone:</strong> +63 912 345 6789</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Profile Link Section -->
+    <footer>
+        <a id="profile-link" href="https://github.com/username" target="_blank">My GitHub Profile</a>
+    </footer>
+
+</body>
+
+</html>
